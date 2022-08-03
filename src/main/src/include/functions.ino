@@ -55,5 +55,4 @@ void print_volume_litros() {
   Serial.print("Volume de agua: ");
   Serial.print(volume);
   Serial.println(" litros");
-  //Serial.println(" cm3");
 }

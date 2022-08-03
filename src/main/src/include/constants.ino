@@ -16,3 +16,17 @@
 //Neste caso, pode estar alguns cm acima do topo do recipiente.
 // Em outras palavras, pode ser floaterpretado como a altura do recipente com a tampa.
 #define ht 58
+
+
+// Constantes da WiFi
+#define ledWifi 2
+
+//meu ssid caso nao tenha conseguido conectar em uma wifi
+//ssid
+const char* my_ssid = "SENSOR";
+// a senha é o mac todo maiusculo sem os dois pontos (:)
+const char* my_password = "12345678";
+
+//servidor web
+//Cria um servidor na porta 80
+WiFiServer sv(80); 
