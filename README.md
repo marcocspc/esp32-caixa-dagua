@@ -5,6 +5,7 @@
 
 ## Software Necessário (Dependências)
 
+- Tasmota;
 - Arduino IDE;
 - Python3.
 
